@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "cra-template-lwb",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "WonbaeLee <gloomygentleman@gmail.com>",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "npx create-react-app template-test --template file:../cra-template-lwb",
+    "clear": "rm -rf ./template-test"
+  },
+  "repository": {
+    "directory": "https://github.com/kkulbae/cra-template-lwb.git"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
